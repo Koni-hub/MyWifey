@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 1st Monthsary, Wifey 💗</title>
+  <meta name="description" content="A little surprise for my wifey — happy 1st monthsary!" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💗</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ INTRO / ENVELOPE GATE ============ -->
+  <div id="intro" class="intro">
+    <div class="intro__inner">
+      <div class="envelope" id="envelope">
+        <div class="envelope__flap"></div>
+        <div class="envelope__body">
+          <span class="envelope__heart">💗</span>
+        </div>
+      </div>
+      <p class="intro__hint">You have a surprise 💌</p>
+      <button class="intro__btn" id="openBtn">Open it</button>
+    </div>
+  </div>
+
+  <!-- ============ FLOATING HEARTS CANVAS ============ -->
+  <canvas id="hearts" class="hearts-canvas"></canvas>
+
+  <!-- ============ TOP NAV ============ -->
+  <nav class="nav">
+    <span class="nav__brand">Koni <span class="nav__amp">&hearts;</span> Yana</span>
+    <button class="music-btn" id="musicBtn" title="Play / pause music">
+      <span id="musicIcon">♪</span> <span class="music-btn__label">music</span>
+    </button>
+  </nav>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <header class="hero" id="top">
+      <p class="hero__kicker reveal">to my one and only</p>
+      <h1 class="hero__title">
+        <span class="hero__line reveal">Happy</span>
+        <span class="hero__line hero__line--big reveal">1<sup>st</sup> Monthsary</span>
+        <span class="hero__script reveal">Wifey&nbsp;ko 💗</span>
+      </h1>
+      <p class="hero__sub reveal">
+        One month down, forever to go. Thank you for being the sweetest part of my days.
+      </p>
+      <div class="hero__heartbeat reveal" aria-hidden="true">
+        <span class="pulse"></span>
+        <span class="emoji-heart">❤️</span>
+      </div>
+      <a class="scroll-cue" href="#memories" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </header>
+
+    <!-- ============ SINCE ============ -->
+    <section class="section counter" id="counter">
+      <h2 class="section__title reveal">One month of <em>us</em></h2>
+      <p class="section__sub reveal">and every second has been worth it</p>
+      <p class="counter__caption reveal">of loving you &mdash; since September 5, 2026</p>
+    </section>
+
+    <!-- ============ FEATURED MEMORY ============ -->
+    <section class="section featured" id="memories">
+      <h2 class="section__title reveal">Our favorite memory</h2>
+      <p class="section__sub reveal">the little things that mean everything</p>
+
+      <figure class="heart-frame reveal" id="heartFrame">
+        <div class="heart-frame__img">
+          <img src="assets/photo1.jpg" data-fallbacks="assets/photo1.png,assets/photo1.jpeg,assets/photo1.jpg" alt="Our photo together" />
+          <div class="photo-placeholder"><span>💗</span><small>Add <b>assets/photo1.jpg</b></small></div>
+        </div>
+        <figcaption class="heart-frame__caption">Two halves, one whole heart 💗</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery">
+      <h2 class="section__title reveal">Our memories 📸</h2>
+      <p class="section__sub reveal">click a photo to see it bigger</p>
+
+      <div class="gallery__grid" id="galleryGrid">
+        <!-- photos are configured in js/script.js -->
+      </div>
+    </section>
+
+    <!-- ============ REASONS ============ -->
+    <section class="section reasons">
+      <h2 class="section__title reveal">Why you're my favorite</h2>
+      <p class="section__sub reveal">a short list of a very long feeling</p>
+      <div class="reasons__grid">
+        <article class="reason reveal"><span class="reason__emoji">🌷</span><h3>Your smile</h3><p>It fixes even the days I didn't know were broken.</p></article>
+        <article class="reason reveal"><span class="reason__emoji">🤝</span><h3>Your patience</h3><p>You understand me even when I can't find the words.</p></article>
+        <article class="reason reveal"><span class="reason__emoji">📌</span><h3>Your laugh</h3><p>My favorite sound in the whole world, no contest.</p></article>
+        <article class="reason reveal"><span class="reason__emoji">🤝</span><h3>Your kindness</h3><p>The way you care makes me want to be softer too.</p></article>
+        <article class="reason reveal"><span class="reason__emoji">🌙</span><h3>Your goodnights</h3><p>Somehow they make tomorrow feel something to look forward to.</p></article>
+        <article class="reason reveal"><span class="reason__emoji">💯</span><h3>Just you</h3><p>No reason needed. You, exactly as you are.</p></article>
+      </div>
+    </section>
+
+    <!-- ============ LETTERS ============ -->
+    <section class="section letters" id="letter">
+      <h2 class="section__title reveal">A letter for you 💌</h2>
+      <p class="section__sub reveal">please read it slowly, okay?</p>
+
+      <!-- Letter 1 -->
+      <article class="letter reveal">
+        <div class="letter__stamp">💗</div>
+        <p class="letter__date">Happy 1st Monthsary</p>
+        <p class="letter__greeting">Wifey ko! 💗</p>
+        <p>
+          Thank you for being there for me, for understanding me, and for making me happy.
+          One month pa lang tayo, pero ang dami na nating memories na I'll always treasure.
+          I'm so grateful to have you. More months and memories with you!
+        </p>
+        <p>
+          Thank you sa bawat good morning at good night mo, sa bawat tawa, sa bawat yakap, at
+          sa bawat sandaling tayo lang dalawa. Salamat sa pagpapasaya sa akin kahit sa
+          simpleng paraan, at sa pag-unawa sa'kin kahit hindi ko nasasabi agad ang nararamdaman
+          ko. Hindi ito ang huling monthsary natin &mdash; simula pa lang ito ng napakarami
+          pang darating.
+        </p>
+        <p>
+          Ikaw ang paborito kong reason kung bakit excited akong bumangon araw-araw, at ikaw
+          din ang paborito kong reason kung bakit ayaw kong matulog gabi-gabi. Bawat araw kasama
+          ka ay regalo na, kaya isang buwan man ito, pakiramdam ko ay napakarami na nating
+          nai-share. I'll keep choosing you, again and again, in every month that comes.
+        </p>
+        <p class="letter__signoff">I love you!<br /><span class="letter__signature">— Hubby 🥹🫶🏻</span></p>
+      </article>
+
+      <!-- Letter 2 (deeper) -->
+      <div class="letter-more reveal">
+        <button class="letter-more__btn" id="deepLetterBtn">
+          <span class="letter-more__label">Read the deeper one 🥹</span>
+          <span class="letter-more__arrow">↓</span>
+        </button>
+      </div>
+
+      <article class="letter letter--deep" id="deepLetter" hidden>
+        <div class="letter__stamp">🥹</div>
+        <p class="letter__date">Isang buwan pa lang, pero</p>
+        <p class="letter__greeting">Wifey ko,</p>
+
+        <p>
+          Simula nang dumating ka, tahimik na mundo ko biglang naging kulay. Isang buwan pa lang
+          tayo, pero para sa akin, ang dami na ng oras na pinagsaluhan natin &mdash; at bawat isa
+          sa mga iyon, pinapahalagahan ko. Hindi ko akalain na isang simpleng "hi" lang pala ang
+          magpapabago ng buong araw ko, at ng paraan ko na tingnan ang mga susunod na araw.
+        </p>
+        <p>
+          Thank you sa pag-unawa kahit hindi ko nasasabi lahat ng nararamdaman. Thank you sa
+          pasensya sa mga oras na mahirap, sa pag-alalay kapag pagod na ako, at sa pagpapaalala
+          na hindi kailangang maging perpekto para mahalin. Mahal kita &mdash; sa simpleng
+          bagay, sa maliliit na kilos, sa paraan mo ng pag-alaga, sa paraan mo ng pagtawa, at sa
+          paraan mo ring unawain ako kahit tahimik lang ako.
+        </p>
+        <p>
+          Alam kong hindi palaging madali. May aras na pagod tayo, may araw na masyado tayong
+          abala, may oras na hindi natin nasasabi agad ang nararamdaman natin. Pero patuloy pa
+          rin tayong pinipili ang isa't isa &mdash; at doon ko mas lalong nakikita kung gaano
+          ka kahalaga. Ang pag-ibig na pinipili araw-araw, iyon ang alam kong totoo.
+        </p>
+        <p>
+          Sa unang buwan pa lang natin: pinapangako ko na pipiliin kita araw-araw. Sa tuwing
+          magaan at sa tuwing mabigat. Pipiliin kita sa mga masayang araw, at higit pa sa mga
+          araw na parang lahat ay laban sa atin. Pipiliin kita nang tahimik, pipiliin kita nang
+          maingay, pipiliin kita kahit sino pa ang magkwestyon.
+        </p>
+        <p>
+          Gusto kong malaman mo na hindi lang kita mahal dahil sa magandang mga sandali &mdash;
+          mahal kita kasama ang lahat. Mahal kita sa mga oras na nangingiti ka lang sa sarili
+          mong kwento, mahal kita sa mga simpleng good morning at good night, mahal kita kahit
+          hindi perpekto ang araw natin. Higit sa lahat, thank you sa pag-ibig na kusang-loob
+          mong ibinibigay &mdash; walang hinihingi, walang kapalit.
+        </p>
+        <p>
+          Kung may isang bagay akong matututuhan sa'yo, ito ay ang maging mas mabait, mas
+          mapagpasensya, at mas grateful sa bawat araw. Salamat sa pagpapaalala na ang tunay
+          na kaligayahan ay nasa mga simpleng bagay: sa tawa, sa yakap, sa pag-usap hanggang
+          gabi, sa pakiramdam na may taong naghihintay sa'yo.
+        </p>
+        <p>
+          Isang buwan pa lang tayo, pero handa na akong harapin ang lahat ng susunod na buwan
+          kasama ka. Sa mga plano natin, sa mga pangarap natin, sa mga pagsubok na darating, at
+          sa mga tawa na maghihintay sa atin &mdash; nandoon ako. Tabi mo ako, lagi. Handa na
+          akong sumabay sa'yo, hakbang sa hakbang, araw-araw.
+        </p>
+        <p>
+          Kaya happy first monthsary, Wifey ko. 🥹 Salamat sa isang buwan na puno ng alaala,
+          salamat sa tiwala, salamat sa pag-ibig. Ito ay para sa iyo, sa atin, at sa lahat ng
+          mga buwan na darating pa.
+        </p>
+        <p class="letter__signoff">
+          Mahal na mahal kita, Wifey. Ngayon, bukas, at sa bawat buwan na darating.<br />
+          <span class="letter__signature">— Your Hubby, forever 💌</span>
+        </p>
+        <p class="letter__ps">
+          P.S. Thank you sa pagpapasaya sa akin kahit sa simpleng paraan. Ikaw ang paborito kong
+          kwento, ikaw ang paborito kong araw, at ikaw ang paborito kong bukas. 🫶🏻
+        </p>
+      </article>
+    </section>
+
+    <!-- ============ CLOSING ============ -->
+    <section class="closing">
+      <p class="closing__script reveal">see you on our 2nd…</p>
+      <h2 class="closing__title reveal">and the 3rd, and the 4th,<br />and every month after that 💗</h2>
+      <button class="closing__btn reveal" id="heartBurstBtn">tap for hearts 🫶🏻</button>
+      <p class="closing__sign reveal">— Koni <span>&hearts;</span> Yana</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Made with love, just for you 💗 &nbsp;•&nbsp; Happy 1st Monthsary</p>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    <p class="lightbox__caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- hidden music element: add assets/music.mp3 and it will work -->
+  <audio id="bgMusic" loop preload="auto" src="assets/music.mp3"></audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

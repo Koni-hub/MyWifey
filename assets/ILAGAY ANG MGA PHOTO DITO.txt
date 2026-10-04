@@ -1,0 +1,15 @@
+PHOTO GOES HERE 📸💗
+===================
+
+Ilagay ang 4 na photos sa folder na ito (C:\Users\Argie\Documents\Default Project\assets)
+gamit ang eksaktong pangalan:
+
+    photo1.jpg  ->  yung half-heart hand sign ninyo (video call)
+    photo2.jpg  ->  yung "Hi My Wifey" drawing
+    photo3.jpg  ->  yung grumpy cat drawing
+    photo4.jpg  ->  yung LOVE ONES pinky-promise drawing
+
+Pwede ring .jpg, .png o .jpeg — auto-detect ang site.
+
+Optional: ilagay ang gusto mong kanta bilang  music.mp3  para gumana
+ang ♪ music button sa taas.
