@@ -7,10 +7,23 @@ const CONFIG = {
   /* ⭐ EDIT: your photos — drop the files into the "assets" folder.
      Each entry tries .jpg first, then .png, then .jpeg.        */
   photos: [
-    { file: "photo1", caption: "Two halves, one whole heart 💗" },
-    { file: "photo2", caption: "Your “Hi My Wifey” drawing 🥹" },
+    { file: "photo1", caption: "Two halves, one whole heart 💗", hero: true },
+    { file: "photo2", caption: "“My Wifey” drawing ⭐" },
     { file: "photo3", caption: "Our grumpy little cat 🐱" },
-    { file: "photo4", caption: "Love ones — pinky promise forever 🤝💗" },
+    { file: "photo4", caption: "Love Ones — Koni ♥ Yana 🤝" },
+    { file: "photo5", caption: "Us in Roblox 🍓🎮" },
+    { file: "photo6", caption: "Half-heart over video call 🤍" },
+    { file: "photo7", caption: "Playtime — just the two of us 🏆" },
+    { file: "photo8", caption: "OOTD check, Roblox edition 🍓" },
+    { file: "photo9", caption: "My light in the dark 🏮" },
+    { file: "photo10", caption: "Close-up of your cute face 🍓" },
+    { file: "photo11", caption: "A walk through the mansion 🏰" },
+    { file: "photo12", caption: "My hero ⚔️" },
+    { file: "photo13", caption: "It was destiny ✨" },
+    { file: "photo14", caption: "Lava run, chain hands 🧗‍♀️🔥" },
+    { file: "photo15", caption: "In the dark, I won't let go 🖤" },
+    { file: "photo16", caption: "Chess at sunset ♟️🌇" },
+    { file: "photo17", caption: "Drawing together over video call 🎨" },
   ],
 
   /* Optional: name a song by putting it at assets/music.mp3 */
@@ -237,8 +250,8 @@ deepBtn.addEventListener("click", () => {
   deepLetter.hidden = open;
   deepBtn.classList.toggle("open", !open);
   deepBtn.querySelector(".letter-more__label").textContent = open
-    ? "Read the deeper one 🥹"
-    : "Hide it for now 🙈";
+    ? "Read the deeper one 🥰"
+    : "Hide it for now 🥰";
   if (!open) {
     setTimeout(() => deepLetter.scrollIntoView({ behavior: "smooth", block: "center" }), 120);
   }
